@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+}
+.imgmok{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
