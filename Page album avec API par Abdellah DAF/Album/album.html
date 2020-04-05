@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouZic | Album</title>
+    <link rel="icon" href="img/logo.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.15.0/css/mdb.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/album.css">
+
+</head>
+<body>
+<div class="header">
+    <ul class="menu">
+        <a href=""><li>HOME</li></a>
+        <a href=""><li>CONTACT</li></a>
+    </ul>
+    <div class="logo">
+        <img src="img/logo.png" alt="">
+        <h1>
+            <span>You</span>Zic Studios
+        </h1>
+    </div>
+</div>
+<!-- Add button -->
+<a href="" data-toggle="modal" data-target="#MyModal" id="AddSinger">
+    <div id="myBtn"><i class="fas fa-plus-circle"></i></div>
+</a>
+<!-- Add button -->
+
+
+<div class="title">
+    <h2>METALLICA</h2>
+    <h1>METALLICA</h1>
+</div>
+
+<div class="container" id="nalbum">
+
+
+
+    
+</div>
+
+    
+    
+</div>
+<!-- Add section -->
+<div class="modal fade" id="MyModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+          <h5 class="modal-title" id="exampleModalLabel">FILL THE FORM : </h5>
+          <form class="inputs" method="post" action="/albums">
+            <input type="text" name="title" value="" placeholder="Title">
+            <input type="text" name="release" value="" placeholder="Release Date">
+            <input type="text" name="img" value="" placeholder="Image">
+            <input type="submit" class="btn btn-primary" value="ADD NEW ALBUM">
+          </form>
+      </div>
+    </div>
+  </div>
+<!-- Add section -->
+
+<!-- Footer -->
+<footer class="page-footer font-small mdb-color darken-3">
+
+    <!-- Footer Elements -->
+    <div class="container">
+      <div class="row">
+        <!-- Grid column -->
+        <div class="col-md-12 py-5">
+          <div class="mb-5 flex-center">
+            <!-- Facebook -->
+            <a class="fb-ic" href="https://www.facebook.com/">
+              <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!-- Twitter -->
+            <a class="tw-ic" href="https://twitter.com/">
+              <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!--Linkedin -->
+            <a class="li-ic" href="https://www.linkedin.com/">
+              <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!--Instagram-->
+            <a class="ins-ic" href="https://www.instagram.com/">
+              <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Elements -->
+    <div class="footer-copyright text-center py-3">2020 Copyright YouZic Studios, All rights reserved
+
+    </div>
+  </footer>
+  <!-- Footer -->
+
+
+<script src="js/script.js"></script>
+</body>
+</html>
